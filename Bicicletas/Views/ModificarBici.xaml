@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bicicletas.Views.ModificarBici">
+    <ContentPage.Content>
+        <StackLayout  BackgroundColor="Black" Margin="0,0,0,0">
+            <Label Text="MODIFICAR BICICLETA"
+                   TextColor="CornflowerBlue"
+                   FontSize="30"
+                   HorizontalOptions="CenterAndExpand" />
+            <Label BackgroundColor="Aquamarine" TextColor="Red" Text="{Binding Bici.Codigo}" 
+                   HorizontalOptions="FillAndExpand"/>
+
+            <Entry BackgroundColor="DeepPink" TextColor="White" Text="{Binding Bici.Nombre}" Placeholder="Nombre"
+                   HorizontalOptions="FillAndExpand"/>
+
+            <Entry BackgroundColor="GreenYellow" TextColor="DeepPink" Text="{Binding Bici.Caracteristicas}" Placeholder="Caracteristicas"
+                   HorizontalOptions="FillAndExpand"/>
+
+            <Button Text="MODIFICAR" HorizontalOptions="Center" BackgroundColor="Aqua"  TextColor="DeepPink" Padding="5"
+                    Command="{Binding ModificarBici}"/>
+            <Image Source="dogs.jpg" WidthRequest="900" HeightRequest="350"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

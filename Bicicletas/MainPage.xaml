@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Bicicletas.MainPage">
+
+    <StackLayout  BackgroundColor="Black" Margin="0,0,0,0">
+        <Image Source="un.jpg" WidthRequest="200" HeightRequest="200"/>
+
+
+        <Button Text="Mostrar" HorizontalOptions="FillAndExpand" Padding="5"  TextColor="Green" BackgroundColor="Yellow"
+                x:Name="btnmostrar"/>
+
+        <Button Text="Crear" HorizontalOptions="FillAndExpand" Padding="5" TextColor="Green" BackgroundColor="Yellow"
+                x:Name="btnnuevo"/>
+
+
+
+        <StackLayout Orientation="Horizontal" BackgroundColor="BlueViolet">
+            <Label  TextColor="Tomato"  Text="Buscar por código la Bicicleta: "/>
+            <Entry x:Name="cajacodigo" TextColor="White"  HorizontalOptions="FillAndExpand"/>
+            <Button BackgroundColor="GreenYellow" TextColor="DeepPink" Text="Borrar" x:Name="btneliminar" 
+                />
+
+            <Button BackgroundColor="GreenYellow" TextColor="DeepPink" Padding="5" Text="Modificar" x:Name="btnmodificar" />
+            
+        </StackLayout>
+        <Image Source="dogs.jpg" WidthRequest="200" HeightRequest="200"/>
+
+
+    </StackLayout>
+
+</ContentPage>
+
+
+
+

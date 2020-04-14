@@ -1,0 +1,17 @@
+C:\Users\meche\Desktop\Bicicletas\Bicicletas\bin\Debug\netstandard2.0\Bicicletas.deps.json
+C:\Users\meche\Desktop\Bicicletas\Bicicletas\bin\Debug\netstandard2.0\Bicicletas.dll
+C:\Users\meche\Desktop\Bicicletas\Bicicletas\obj\Debug\netstandard2.0\Bicicletas.csprojAssemblyReference.cache
+C:\Users\meche\Desktop\Bicicletas\Bicicletas\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\meche\Desktop\Bicicletas\Bicicletas\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\meche\Desktop\Bicicletas\Bicicletas\obj\Debug\netstandard2.0\Bicicletas.AssemblyInfoInputs.cache
+C:\Users\meche\Desktop\Bicicletas\Bicicletas\obj\Debug\netstandard2.0\Bicicletas.AssemblyInfo.cs
+C:\Users\meche\Desktop\Bicicletas\Bicicletas\bin\Debug\netstandard2.0\ref\Bicicletas.dll
+C:\Users\meche\Desktop\Bicicletas\Bicicletas\bin\Debug\netstandard2.0\Bicicletas.pdb
+C:\Users\meche\Desktop\Bicicletas\Bicicletas\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\meche\Desktop\Bicicletas\Bicicletas\obj\Debug\netstandard2.0\Bicicletas.dll
+C:\Users\meche\Desktop\Bicicletas\Bicicletas\obj\Debug\netstandard2.0\ref\Bicicletas.dll
+C:\Users\meche\Desktop\Bicicletas\Bicicletas\obj\Debug\netstandard2.0\Bicicletas.pdb
+C:\Users\meche\Desktop\Bicicletas\Bicicletas\obj\Debug\netstandard2.0\Views\BicisView.xaml.g.cs
+C:\Users\meche\Desktop\Bicicletas\Bicicletas\obj\Debug\netstandard2.0\Views\EliminarBici.xaml.g.cs
+C:\Users\meche\Desktop\Bicicletas\Bicicletas\obj\Debug\netstandard2.0\Views\InsertarBici.xaml.g.cs
+C:\Users\meche\Desktop\Bicicletas\Bicicletas\obj\Debug\netstandard2.0\Views\ModificarBici.xaml.g.cs

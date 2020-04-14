@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:Bicicletas.ViewModels"
+             x:Class="Bicicletas.Views.BicisView">
+    <ContentPage.BindingContext>
+        <viewmodels:BicisViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout  BackgroundColor="Black" Margin="0,0,0,0">
+            <Label Text="Lista de Bicicletas Registradas:" FontSize="25"
+                  TextColor="Green"
+                  HorizontalOptions="CenterAndExpand"/>
+            <ListView ItemsSource="{Binding Bicis}" RowHeight="90">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout>
+                                <Label TextColor="DeepPink" Text="{Binding Nombre}"/>
+                                <Label TextColor="DeepPink" Text="{Binding Codigo}"/>
+                                <Label TextColor="DeepPink" Text="{Binding Caracteristicas}"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

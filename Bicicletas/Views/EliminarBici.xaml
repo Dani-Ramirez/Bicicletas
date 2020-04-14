@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bicicletas.Views.EliminarBici">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Black" Margin="0,0,0,0">
+            <Label Text="ELIMINAR BICICLETA"
+                   TextColor="Yellow"
+                   FontSize="30"
+                   HorizontalOptions="CenterAndExpand" />
+            <Label BackgroundColor="Aqua" TextColor="DeepPink"  Text="{Binding Bici.Codigo}" 
+                   HorizontalOptions="FillAndExpand"/>
+
+            <Label BackgroundColor="Orange" TextColor="DeepPink" Text="{Binding Bici.Nombre}" 
+                   HorizontalOptions="FillAndExpand"/>
+
+            <Label BackgroundColor="GreenYellow" TextColor="DeepPink" Text="{Binding Bici.Caracteristicas}" 
+                   HorizontalOptions="FillAndExpand"/>
+
+            <Button BackgroundColor="Red" TextColor="Wheat" Text="ELIMINAR" HorizontalOptions="Center"
+                    Command="{Binding EliminarBici}"
+                    />
+            <Image Source="dogs.jpg" WidthRequest="900" HeightRequest="350"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

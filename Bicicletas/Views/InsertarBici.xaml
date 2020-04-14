@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:Bicicletas.ViewModels"
+             x:Class="Bicicletas.Views.InsertarBici">
+    <ContentPage.BindingContext>
+        <viewmodels:BiciModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Black" Margin="0,0,0,0">
+            <Label Text="INSERTAR BICICLETA"
+                   TextColor="Red"
+                   FontSize="30"
+                   HorizontalOptions="CenterAndExpand" />
+            <Entry BackgroundColor="Aqua" Text="{Binding Bici.Codigo}" TextColor="OrangeRed" Placeholder="codigo"
+                   HorizontalOptions="FillAndExpand"/>
+
+            <Entry BackgroundColor="DeepPink" Text="{Binding Bici.Nombre}" TextColor="GreenYellow" Placeholder="Nombre"
+                   HorizontalOptions="FillAndExpand"/>
+
+            <Entry BackgroundColor="GreenYellow" Text="{Binding Bici.Caracteristicas}" TextColor="DeepPink" Placeholder="Caracteristicas"
+                   HorizontalOptions="FillAndExpand"/>
+
+            <Button BackgroundColor="DarkBlue" TextColor="GreenYellow" Text="INSERTAR" Padding="10" HorizontalOptions="Center"
+                    Command="{Binding InsertarBici}"/>
+            <Image Source="dogs.jpg" WidthRequest="900" HeightRequest="350"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
